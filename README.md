@@ -46,9 +46,20 @@ Users should be able to:
 
 ### What I learned
 
-```Github
-	-   Relative paths to folders need "./" before the folder name.
+Github:
+
+-   Relative paths to folders need "./" before the folder name.
+
+HTML:
+
+-   Include at least one navigational element and one main element in your HTML. It is best practice to also include role attributes for them as such `role="navigation"` and `role="main"`. (This HTML file needs no navigation element).
+
+```html
+<nav role="navigation"></nav>
+<main role="main"></main>
 ```
+
+CSS:
 
 ```css
 settingstouselocalfonts: @font-face {
@@ -83,6 +94,7 @@ Improvement areas:
 
 -   [info and CSS for variable fonts](https://wakamaifondue.com/) - Showed me font-weight range of the variable font
 -   [Intro to variable fonts - Kevin Powell](https://www.youtube.com/watch?v=0fVymQ7SZw0&t=640s)
+-   [Important HTML landmarks](https://dequeuniversity.com/rules/axe/4.6/landmark-one-main?application=axeAPI)
 
 ## Author
 
