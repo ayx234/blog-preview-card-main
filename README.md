@@ -10,7 +10,6 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
     -   [The challenge](#the-challenge)
     -   [Screenshot](#screenshot)
     -   [Links](#links)
-    <!-- update link after getting solution and live site -->
 -   [My process](#my-process)
     -   [Built with](#built-with)
     -   [What I learned](#what-i-learned)
@@ -35,7 +34,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [Add solution URL here](https://github.com/ayx234/blog-preview-card-main)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Live Site URL: [Add live site URL here](https://ayx234.github.io/blog-preview-card-main/)
 
 ## My process
 
@@ -47,21 +46,25 @@ Users should be able to:
 
 ### What I learned
 
+```Github
+	-   Relative paths to folders need "./" before the folder name.
+```
+
 ```css
 settingstouselocalfonts: @font-face {
 	font-family: "Figtree";
-	/* format("ttf"); does not work. It has to be "truetype" */
+	- format("ttf"); does not work. It has to be "truetype"
 	src: url("/assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
 	font-weight: 300 900;
 	font-display: swap;
 }
 
 settingstochangeaspect-ratio: img, div, etc... {
-	aspect-ratio: 1.4 / 1; /* example ratio numbers */
-	width: 100%; /* Without this, aspect ratio uses the original img's width, not width on page */
-	height: auto; /* Allows the image to adjust its height based on the aspect ratio */
-	max-width: 100%; /* prevents overflow */
-	object-fit: cover; /* ensures that the entire area defined by the aspect ratio is covered by the image content */
+	aspect-ratio: 1.4 / 1; - example ratio numbers
+	width: 100%; - Without this, aspect ratio uses the original img's width, not width on page
+	height: auto; - Allows the image to adjust its height based on the aspect ratio
+	max-width: 100%; - prevents overflow
+	object-fit: cover; - ensures that the entire area defined by the aspect ratio is covered by the image content
 }
 ```
 

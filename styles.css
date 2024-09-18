@@ -99,7 +99,7 @@ select {
 @font-face {
 	font-family: "Figtree";
 	/* format("ttf"); does not work. It has to be "truetype" */
-	src: url("/assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+	src: url("./assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
 	font-weight: 300 900;
 	font-display: swap;
 }
