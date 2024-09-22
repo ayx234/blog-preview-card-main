@@ -144,6 +144,11 @@ body {
 	box-shadow: 0.5rem 0.5rem;
 }
 
+.card a {
+	text-decoration: none;
+	color: inherit;
+}
+
 img.article-image {
 	border-radius: 0.75rem;
 	/* Stretch image */
@@ -168,7 +173,7 @@ img.article-image {
 	font-size: 0.75rem;
 }
 
-h2 {
+.card h2 {
 	font-weight: 800;
 	font-size: 1.25rem;
 	margin: 1rem 0;
@@ -210,15 +215,9 @@ img.avatar {
 
 /* active states */
 
-.tag,
-h2,
-.author {
-	cursor: pointer;
-}
-
-h2.active,
+h2:active,
 h2:hover,
-.author.active,
+.author:active,
 .author:hover {
 	color: var(--Yellow);
 }
