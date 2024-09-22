@@ -112,7 +112,7 @@ select {
 }
 
 html {
-	font-family: "Figtree";
+	font-family: "Figtree", sans-serif;
 	font-weight: 500;
 	color: var(--Gray-950);
 	background-color: var(--Yellow);
